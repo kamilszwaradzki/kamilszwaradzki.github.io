@@ -121,9 +121,6 @@
             font-size: 30px;
         }
     }
-        #profile .card {
-            margin: 0 4em 0 4em !important;
-        }
         a.d-flex span[data-target="home"] {
             border: 2px solid black;
             height: fit-content;
