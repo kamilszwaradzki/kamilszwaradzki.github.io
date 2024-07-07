@@ -1,4 +1,3 @@
-# About
 <style>
     main {
     height: auto;
@@ -96,7 +95,7 @@
             margin-left: 1em;
             margin-right: 1em;
         }
-        h2, p {
+        h2, .card p, .card-body p{
             text-align: center;
             text-align: -webkit-center;
         }
@@ -212,7 +211,7 @@
             <div class="btn-group">
             <a href="/" class="btn btn-outline-dark"><i class="fs-4 bi-house"></i>Home</a>
             <a href="/contact" class="btn btn-outline-dark"><i class="fs-4 bi-telephone-outbound"></i>Contact</a>
-            <a href="/about" class="btn btn-outline-dark active" aria-current="page"><i class="fs-4 bi-person-raised-hand"></i>About</a>
+            <a href="/about" class="btn btn-outline-dark active" aria-current="page"><i class="fs-4 bi-person-raised-hand"></i>About me</a>
             <a href="/portfolio" class="btn btn-outline-dark"><i class="fs-4 bi-github"></i>Portfolio</a>
             <a href="/rates" class="btn btn-outline-dark"><i class="fs-4 bi-coin"></i>Rates</a>
           </div>
@@ -220,6 +219,11 @@
     </div>
     <div class="row flex-nowrap">
         <div class="col">
+            <div class="row my-5 text-center">
+                <div class="col">
+                    <div class="badge text-bg-dark fs-1 fw-bold">O mnie</div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-auto m-auto m-lg-0">
                     <div id="navigation">
