@@ -207,6 +207,17 @@
     
 </style>
 <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="btn-group">
+            <a href="/" class="btn btn-outline-dark"><i class="fs-4 bi-house"></i>Home</a>
+            <a href="/contact" class="btn btn-outline-dark"><i class="fs-4 bi-telephone-outbound"></i>Contact</a>
+            <a href="/about" class="btn btn-outline-dark active" aria-current="page"><i class="fs-4 bi-person-raised-hand"></i>About</a>
+            <a href="/portfolio" class="btn btn-outline-dark"><i class="fs-4 bi-github"></i>Portfolio</a>
+            <a href="/rates" class="btn btn-outline-dark"><i class="fs-4 bi-coin"></i>Rates</a>
+          </div>
+        </div>
+    </div>
     <div class="row flex-nowrap">
         <div class="col">
             <div class="row">
@@ -265,16 +276,16 @@
                     <section id="experience" class="my-5">
                         <h2 id="header-experience">Doświadczenie</h2>
                         <div class="accordion" id="accordionExample">
-                                                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">
                                     PHP
                                     <div class="rating">
-                                    <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="half-color">★</span>
-                <span>★</span>
+                                        <span class="hover">★</span>
+                                        <span class="hover">★</span>
+                                        <span class="hover">★</span>
+                                        <span class="half-color">★</span>
+                                        <span>★</span>
                                     </div>
                                 </button>
                                 </h2>
@@ -284,39 +295,39 @@
                                             <h2>PHP</h2>
                                             <div class="rating">
                                                 <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="half-color">★</span>
-                <span>★</span>
+                                                <span class="hover">★</span>
+                                                <span class="hover">★</span>
+                                                <span class="half-color">★</span>
+                                                <span>★</span>
                                             </div>
                                             <p>
                                                 <label id="lbl-progress-php" for="exp_subtotal_1">Rok i Trzy miesiące</label>
-                        <progress id="exp_subtotal_1" value="41" max="100">41%</progress>
+                                                <progress id="exp_subtotal_1" value="41" max="100">41%</progress>
                                             </p>
                                         </div>
                                         <div class="card" style="background: #d3d3ff;">
                                             <h2 class="header-worked-on">Pracowałem nad:</h2>
                                             <ul id="list-worked-on-php">
-                                                                                                        <li>Rozwijanie oprogramowania CRM vtenext,</li>
-                                                                                                        <li>Dodawanie zmian na życzenie klientów w zakresie spersonalizowanego oprogramowania CRM vtenext,</li>
-                                                                                                        <li>Dostarczanie poprawek do istniejących rozwiązań w środowisku klienta w oparciu o CRM vtenext,</li>
-                                                                                                </ul>
+                                                <li>Rozwijanie oprogramowania CRM vtenext,</li>
+                                                <li>Dodawanie zmian na życzenie klientów w zakresie spersonalizowanego oprogramowania CRM vtenext,</li>
+                                                <li>Dostarczanie poprawek do istniejących rozwiązań w środowisku klienta w oparciu o CRM vtenext,</li>
+                                            </ul>
                                             <h2 class="header-used-techs">Używane technologie:</h2>
                                             <b>PHP 7.x, jQuery, MySQL, SVN, Smarty, JS/CSS/HTML</b>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                                                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCodeIgniter" aria-expanded="false" aria-controls="collapseCodeIgniter">
                                     CodeIgniter
                                     <div class="rating">
                                     <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="half-color">★</span>
-                <span>★</span>
-                <span>★</span>
+                                    <span class="hover">★</span>
+                                    <span class="half-color">★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                     </div>
                                 </button>
                                 </h2>
@@ -326,37 +337,37 @@
                                             <h2>CodeIgniter</h2>
                                             <div class="rating">
                                                 <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="half-color">★</span>
-                <span>★</span>
-                <span>★</span>
+                                                <span class="hover">★</span>
+                                                <span class="half-color">★</span>
+                                                <span>★</span>
+                                                <span>★</span>
                                             </div>
                                             <p>
                                                 <label id="lbl-progress-codeigniter" for="exp_subtotal_2">Siedem miesięcy</label>
-                        <progress id="exp_subtotal_2" value="19" max="100">19%</progress>
+                                                <progress id="exp_subtotal_2" value="19" max="100">19%</progress>
                                             </p>
                                         </div>
                                         <div class="card" style="background: #d3d3ff;">
                                             <h2 class="header-worked-on">Pracowałem nad:</h2>
                                             <ul id="list-worked-on-codeigniter">
-                                                                                                        <li>Aplikacja o wielu zastosowaniach dla ubezpieczalni w Wielkiej Brytanii m.in. porównywarka ubezpieczeń oraz kalkulator podatków za sprowadzenie auta z Irlandii na podstawie numeru rejstracyjnego, kosztorys napraw</li>
-                                                                                                </ul>
+                                                    <li>Aplikacja o wielu zastosowaniach dla ubezpieczalni w Wielkiej Brytanii m.in. porównywarka ubezpieczeń oraz kalkulator podatków za sprowadzenie auta z Irlandii na podstawie numeru rejstracyjnego, kosztorys napraw</li>
+                                            </ul>
                                             <h2 class="header-used-techs">Używane technologie:</h2>
                                             <b>CodeIgniter 3.x, jQuery, MySQL, Git, Vue.js, JS/CSS/HTML, webpack, Twig</b>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                                                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSymfony" aria-expanded="false" aria-controls="collapseSymfony">
                                     Symfony
                                     <div class="rating">
                                     <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="half-color">★</span>
-                <span>★</span>
-                <span>★</span>
+                                    <span class="hover">★</span>
+                                    <span class="half-color">★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                     </div>
                                 </button>
                                 </h2>
@@ -366,39 +377,39 @@
                                             <h2>Symfony</h2>
                                             <div class="rating">
                                                 <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="half-color">★</span>
-                <span>★</span>
-                <span>★</span>
+                                                <span class="hover">★</span>
+                                                <span class="half-color">★</span>
+                                                <span>★</span>
+                                                <span>★</span>
                                             </div>
                                             <p>
                                                 <label id="lbl-progress-symfony" for="exp_subtotal_3">Sześć miesięcy</label>
-                        <progress id="exp_subtotal_3" value="18" max="100">18%</progress>
+                                                <progress id="exp_subtotal_3" value="18" max="100">18%</progress>
                                             </p>
                                         </div>
                                         <div class="card" style="background: #d3d3ff;">
                                             <h2 class="header-worked-on">Pracowałem nad:</h2>
                                             <ul id="list-worked-on-symfony">
-                                                                                                        <li>Projekt do wysyłania i interpretowania zapytań w JSON/XML</li>
-                                                                                                        <li>Sklep B2B,</li>
-                                                                                                        <li>Generator faktur,</li>
-                                                                                                </ul>
+                                                    <li>Projekt do wysyłania i interpretowania zapytań w JSON/XML</li>
+                                                    <li>Sklep B2B,</li>
+                                                    <li>Generator faktur,</li>
+                                            </ul>
                                             <h2 class="header-used-techs">Używane technologie:</h2>
                                             <b>MySQL, Symfony, Backbone.js, React.js, PostgreSQL, Docker, Twig, jQuery, Git, Grunt, JS/CSS/HTML, PHP 7.x,PHP 5.6</b>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                                                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLaravel" aria-expanded="false" aria-controls="collapseLaravel">
                                     Laravel
                                     <div class="rating">
                                     <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span>★</span>
-                <span>★</span>
+                                    <span class="hover">★</span>
+                                    <span class="hover">★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                     </div>
                                 </button>
                                 </h2>
@@ -408,38 +419,38 @@
                                             <h2>Laravel</h2>
                                             <div class="rating">
                                                 <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span>★</span>
-                <span>★</span>
+                                                <span class="hover">★</span>
+                                                <span class="hover">★</span>
+                                                <span>★</span>
+                                                <span>★</span>
                                             </div>
                                             <p>
                                                 <label id="lbl-progress-laravel" for="exp_subtotal_4">Pięć miesięcy</label>
-                        <progress id="exp_subtotal_4" value="17" max="100">17%</progress>
+                                                <progress id="exp_subtotal_4" value="17" max="100">17%</progress>
                                             </p>
                                         </div>
                                         <div class="card" style="background: #d3d3ff;">
                                             <h2 class="header-worked-on">Pracowałem nad:</h2>
                                             <ul id="list-worked-on-laravel">
-                                                                                                        <li>Projekt do obsługi SEO i kampanii SEO</li>
-                                                                                                        <li>Projekt do analizy danych z Google Search Console</li>
-                                                                                                </ul>
+                                                <li>Projekt do obsługi SEO i kampanii SEO</li>
+                                                <li>Projekt do analizy danych z Google Search Console</li>
+                                            </ul>
                                             <h2 class="header-used-techs">Używane technologie:</h2>
                                             <b>jQuery, Laravel, MySQL, Laravel LiveWire, Git, JS/CSS/HTML, AlpineJS</b>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                                                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython" aria-expanded="false" aria-controls="collapsePython">
                                     Python
                                     <div class="rating">
                                     <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
+                                    <span class="hover">★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
                                     </div>
                                 </button>
                                 </h2>
@@ -449,28 +460,28 @@
                                             <h2>Python</h2>
                                             <div class="rating">
                                                 <span class="hover">★</span>
-                <span class="hover">★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
+                                                <span class="hover">★</span>
+                                                <span>★</span>
+                                                <span>★</span>
+                                                <span>★</span>
                                             </div>
                                             <p>
                                                 <label id="lbl-progress-python" for="exp_subtotal_5">Jeden miesiąc</label>
-                        <progress id="exp_subtotal_5" value="5" max="100">5%</progress>
+                                                <progress id="exp_subtotal_5" value="5" max="100">5%</progress>
                                             </p>
                                         </div>
                                         <div class="card" style="background: #d3d3ff;">
                                             <h2 class="header-worked-on">Pracowałem nad:</h2>
                                             <ul id="list-worked-on-python">
-                                                                                                        <li>Checkout dla sklepu Shopify w shopify api</li>
-                                                                                                </ul>
+                                                <li>Checkout dla sklepu Shopify w shopify api</li>
+                                            </ul>
                                             <h2 class="header-used-techs">Używane technologie:</h2>
                                             <b>Flask, Shopify, Python, Babel, MongoDB</b>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                                                    </div>
+                        </div>
                     </section>
                 </div>
             </div>
