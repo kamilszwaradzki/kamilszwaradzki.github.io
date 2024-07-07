@@ -1,3 +1,4 @@
+{% set site = 'home' %}
 ## Portfolio
 
 ---
