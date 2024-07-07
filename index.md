@@ -17,14 +17,14 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/hangman-miniaturka.png" class="d-block m-auto w-75"
+                                    <img src="images/hangman-miniaturka.png" class="d-block m-auto w-100"
                                         alt="Hangman">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="images/todolist-laravel.png" class="d-block w-100" alt="Todolist">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/JobApps.png" class="d-block m-auto w-75" alt="JobApps">
+                                    <img src="images/JobApps.png" class="d-block m-auto w-100" alt="JobApps">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
