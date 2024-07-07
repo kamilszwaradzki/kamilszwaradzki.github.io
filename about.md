@@ -73,9 +73,8 @@
         .cards {
             max-width: 1200px;
             margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 1em;
+            display: flex;
+            flex-direction: column;
             font-size: large;
         }
         h2, p {
@@ -102,10 +101,8 @@
             text-align: -webkit-center;
         }
         .cards {
-            display: grid;
-            align-items: center;
-            grid-gap: 1em;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            display: flex;
+            flex-direction: column;
         }
         .card {
             grid-template-columns: repeat(4, 1fr);
