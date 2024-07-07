@@ -76,7 +76,7 @@
             flex-direction: column;
             font-size: large;
         }
-        h2, p {
+        h2, .card p, .card-body p {
             text-align: center;
             text-align: -webkit-center;
         }
@@ -95,7 +95,7 @@
             margin-left: 1em;
             margin-right: 1em;
         }
-        h2, .card p, .card-body p{
+        h2, .card p, .card-body p {
             text-align: center;
             text-align: -webkit-center;
         }

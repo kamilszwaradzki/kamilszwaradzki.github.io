@@ -19,10 +19,10 @@
             </div>
             <div class="row my-5 text-center">
                 <div class="col">
-                    <a href="https://www.linkedin.com/in/kamil-szwaradzki-ab32a4213/" class="btn btn-outline-secondary" target="_blank"><i class="bi bi-linkedin"></i>&nbsp;View My LinkedIn Profile</a>
+                    <a href="https://www.linkedin.com/in/kamil-szwaradzki-ab32a4213/" class="btn btn-outline-secondary text-nowrap" target="_blank"><i class="bi bi-linkedin"></i>&nbsp;View My LinkedIn Profile</a>
                 </div>
                 <div class="col">
-                    <a href="https://github.com/kamilszwaradzki" class="btn btn-outline-secondary" target="_blank"><i class="bi bi-github"></i>&nbsp;View My GitHub Profile</a>
+                    <a href="https://github.com/kamilszwaradzki" class="btn btn-outline-secondary text-nowrap" target="_blank"><i class="bi bi-github"></i>&nbsp;View My GitHub Profile</a>
                 </div>
             </div>
       </div>
