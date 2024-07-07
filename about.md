@@ -481,7 +481,6 @@
                     </section>
                 </div>
             </div>
-            <footer>Copyright©2023-2024 Kamil Szwaradzki</footer>
         </div>
     </div>
 </div>
