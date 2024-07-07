@@ -1,6 +1,126 @@
 # About
 <style>
-    
+    main {
+    height: auto;
+    }
+    .rating {
+    text-align: center;
+    perspective: 250px;
+    width: 100%;
+    }
+
+    .rating span {
+    font-size: 50px;
+    padding: 0 10px;
+    color: grey;
+    }
+    .rating span.hover {
+    color: #ff0;
+    }
+    .half-color {
+    font-size: 50px;
+    background: linear-gradient(to right, #ff0, #ff0 50%, grey 50%, grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .card ul li {
+        list-style-position: inside;
+        overflow-wrap: break-word;
+        padding: 0.5em;
+    }
+
+    #table-of-contents {
+        list-style: none;
+        border: #331cf9 2px solid;
+        width: fit-content;
+        padding: 0.5em;
+    }
+
+    @media (min-width: 810px) {
+        #language, #lang-label {
+            margin: 0.5em;
+        }
+        #lang-flag {
+            align-self: center;
+        }
+        #lang-cont {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #skills-list {
+            margin: 0 4em 0 4em;
+        }
+
+        #profile p {
+            margin: 0 3em 0 3em;
+        }
+
+        nav span {
+        position: fixed;
+        animation-name: move;
+        animation-duration: 1ms;
+        animation-direction: alternate;
+        animation-timeline: scroll(block nearest);
+        }
+
+        @keyframes move {
+        from {left: 35%;}
+        to {left: 73%;}
+        }
+
+        .cards {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1em;
+            font-size: large;
+        }
+        h2, p {
+            text-align: center;
+            text-align: -webkit-center;
+        }
+
+        b {
+            display: block;
+            margin: 0.5em;
+            text-align: center;
+        }
+    }
+    @media (max-width: 768px) {
+        progress {
+            width: 95%;
+        }
+        main {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        h2, p {
+            text-align: center;
+            text-align: -webkit-center;
+        }
+        .cards {
+            display: grid;
+            align-items: center;
+            grid-gap: 1em;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        .card {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 300px);
+        }
+
+        b {
+            display: block;
+            margin: 0.5em;
+            text-align: center;
+        }
+        #rating span {
+            font-size: 30px;
+        }
+    }
         #profile .card {
             margin: 0 4em 0 4em !important;
         }
