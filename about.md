@@ -1,4 +1,3 @@
-{% set site = 'about' %}
 # About
 <style>
     main {

@@ -1,4 +1,3 @@
-{% set site = 'home' %}
 <div class="container-fluid">
     <div class="row flex-nowrap">
         <div class="col">
