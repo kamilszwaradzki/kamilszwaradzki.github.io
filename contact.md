@@ -4,7 +4,7 @@
             <div class="btn-group">
             <a href="/" class="btn btn-outline-dark"><i class="fs-4 bi-house"></i>Home</a>
             <a href="/contact" class="btn btn-outline-dark active" aria-current="page"><i class="fs-4 bi-telephone-outbound"></i>Contact</a>
-            <a href="/about" class="btn btn-outline-dark"><i class="fs-4 bi-person-raised-hand"></i>About me</a>
+            <a href="/about" class="btn btn-outline-dark"><i class="fs-4 bi-person-raised-hand"></i><span class="text-nowrap">About me</span></a>
             <a href="/portfolio" class="btn btn-outline-dark"><i class="fs-4 bi-github"></i>Portfolio</a>
             <a href="/rates" class="btn btn-outline-dark"><i class="fs-4 bi-coin"></i>Rates</a>
           </div>
